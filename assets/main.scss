@@ -1,34 +1,80 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
-
 @import "minima";
 
+/* TIME-BERRY DARK THEME */
+
+:root {
+  color-scheme: dark;
+}
+
 body {
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.1px;
+  background: #080d18;
+  color: #e5eaf5;
+  font-family: Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
-  letter-spacing: -0.8px;
+.site-header {
+  background: #080d18;
+  border-top: 4px solid #387bff;
+  border-bottom: 1px solid #26334d;
 }
 
-.site-title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
-  letter-spacing: -1px;
+.site-title,
+.site-title:visited {
+  color: #ffffff;
+  font-weight: 800;
 }
 
-.site-nav {
-  font-family: 'Space Grotesk', sans-serif;
+.site-nav .page-link {
+  color: #dce6ff;
   font-weight: 600;
 }
 
-p {
-  font-weight: 400;
+.page-content {
+  background: #080d18;
+}
+
+h1, h2, h3, h4 {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+p, li {
+  color: #c5cee0;
   line-height: 1.8;
+}
+
+a {
+  color: #65a3ff;
+}
+
+a:hover {
+  color: #a78bfa;
+}
+
+.site-footer {
+  background: #0d1424;
+  border-top: 1px solid #26334d;
+  color: #aab6cc;
+}
+
+.post-list li {
+  border-bottom: 1px solid #26334d;
+}
+
+code, pre {
+  background: #151f33;
+  color: #8fc2ff;
+  border: 1px solid #26334d;
+}
+
+blockquote {
+  color: #aab6cc;
+  border-left: 4px solid #387bff;
+}
+
+hr {
+  border-color: #26334d;
 }
