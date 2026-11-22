@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# TIME-BERRY
-
 ### Explore. Understand. Discover.
 
 Welcome to TIME-BERRY — your gateway to science, space, technology and the mysteries of our universe.
