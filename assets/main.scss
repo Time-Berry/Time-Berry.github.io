@@ -1,1 +1,456 @@
+---
+---
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@import "minima";
+
+/* =========================================
+   TIME-BERRY
+   COSMIC INTELLIGENCE DESIGN SYSTEM
+========================================= */
+
+:root {
+  --bg: #050816;
+  --bg-secondary: #090f20;
+  --surface: #101a30;
+  --surface-glass: rgba(16, 28, 52, 0.72);
+
+  --blue: #438cff;
+  --cyan: #43e5ff;
+  --violet: #9365ff;
+
+  --text: #f4f7ff;
+  --muted: #a5b2ca;
+
+  --border: rgba(120, 160, 255, 0.16);
+
+  --font-heading: 'Orbitron', sans-serif;
+  --font-body: 'Space Grotesk', sans-serif;
+}
+
+/* =========================================
+   GLOBAL
+========================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(
+      ellipse at 15% 5%,
+      rgba(49, 94, 190, 0.16),
+      transparent 38%
+    ),
+    radial-gradient(
+      ellipse at 90% 35%,
+      rgba(113, 66, 190, 0.12),
+      transparent 35%
+    ),
+    var(--bg);
+
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.8;
+  overflow-x: hidden;
+}
+
+/* Selection */
+
+::selection {
+  background: var(--blue);
+  color: white;
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+.site-header {
+  background: rgba(5, 8, 22, 0.94);
+  border-top: 3px solid var(--blue);
+  border-bottom: 1px solid var(--border);
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.site-title {
+  font-family: var(--font-heading) !important;
+  font-weight: 800;
+  letter-spacing: 2px;
+
+  color: white !important;
+  font-size: 25px !important;
+}
+
+.site-title:hover {
+  color: var(--cyan) !important;
+}
+
+.site-nav .page-link {
+  color: var(--muted) !important;
+  font-family: var(--font-body);
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.site-nav .page-link:hover {
+  color: var(--cyan) !important;
+}
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+.page-content {
+  padding: 65px 0;
+  min-height: 75vh;
+}
+
+.wrapper {
+  max-width: 1120px;
+}
+
+/* =========================================
+   TYPOGRAPHY
+========================================= */
+
+h1, h2, h3, h4, h5 {
+  color: var(--text);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+h1 {
+  font-size: clamp(34px, 6vw, 60px);
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-size: clamp(24px, 4vw, 34px);
+  margin-top: 45px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+strong {
+  color: white;
+}
+
+/* =========================================
+   LINKS
+========================================= */
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+/* =========================================
+   HERO AND INTRODUCTION
+========================================= */
+
+.page-content h1:first-of-type {
+  color: white;
+}
+
+.page-content h1:first-of-type::after {
+  content: "";
+  display: block;
+
+  width: 85px;
+  height: 4px;
+
+  margin-top: 20px;
+
+  background: linear-gradient(
+    90deg,
+    var(--blue),
+    var(--violet),
+    transparent
+  );
+
+  border-radius: 10px;
+}
+
+/* =========================================
+   CONTENT SECTIONS
+========================================= */
+
+.page-content h2 {
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.page-content h2::before {
+  content: "// ";
+  color: var(--blue);
+}
+
+/* =========================================
+   GLASS EFFECT
+========================================= */
+
+blockquote {
+  background: var(--surface-glass);
+  border-left: 3px solid var(--blue);
+
+  padding: 22px 25px;
+  border-radius: 0 14px 14px 0;
+
+  color: var(--muted);
+}
+
+/* =========================================
+   LISTS
+========================================= */
+
+ul, ol {
+  color: var(--muted);
+}
+
+li {
+  margin-bottom: 9px;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+button,
+input[type="submit"] {
+  background: linear-gradient(
+    110deg,
+    var(--blue),
+    var(--violet)
+  );
+
+  color: white;
+  border: none;
+  border-radius: 9px;
+
+  padding: 12px 24px;
+  font-family: var(--font-body);
+  font-weight: 700;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(67, 140, 255, 0.3);
+}
+
+/* =========================================
+   INPUTS
+========================================= */
+
+input,
+textarea,
+select {
+  background: var(--surface) !important;
+  color: white !important;
+
+  border: 1px solid var(--border) !important;
+  border-radius: 9px;
+
+  padding: 12px;
+}
+
+/* =========================================
+   HORIZONTAL LINES
+========================================= */
+
+hr {
+  border: 0;
+  height: 1px;
+
+  background: linear-gradient(
+    90deg,
+    var(--blue),
+    var(--violet),
+    transparent
+  );
+
+  margin: 45px 0;
+}
+
+/* =========================================
+   IMAGES
+========================================= */
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.site-footer {
+  background: #030612;
+  border-top: 1px solid var(--border);
+  padding: 40px 0;
+}
+
+.footer-heading {
+  color: white;
+  font-family: var(--font-heading);
+}
+
+.footer-col-wrapper,
+.footer-col {
+  color: var(--muted);
+}
+
+.social-media-list a {
+  color: var(--blue);
+}
+
+/* =========================================
+   CODE BLOCKS
+========================================= */
+
+pre,
+code {
+  background: #101a30 !important;
+  color: var(--cyan) !important;
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+pre {
+  padding: 18px;
+  overflow-x: auto;
+}
+
+/* =========================================
+   BLOG POSTS
+========================================= */
+
+.post-list-heading {
+  font-family: var(--font-heading);
+  color: white;
+}
+
+.post-list li {
+  background: var(--surface-glass);
+  border: 1px solid var(--border);
+
+  border-radius: 15px;
+  padding: 22px;
+
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.post-list li:hover {
+  border-color: var(--blue);
+  transform: translateY(-4px);
+
+  box-shadow: 0 12px 35px rgba(35, 95, 200, 0.12);
+}
+
+.post-meta {
+  color: var(--muted);
+}
+
+.post-title {
+  color: white;
+}
+
+/* =========================================
+   SCROLLBAR
+========================================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    var(--blue),
+    var(--violet)
+  );
+
+  border-radius: 10px;
+}
+
+/* =========================================
+   MOBILE RESPONSIVENESS
+========================================= */
+
+@media screen and (max-width: 700px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  .wrapper {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .page-content {
+    padding-top: 38px;
+    padding-bottom: 45px;
+  }
+
+  .site-title {
+    font-size: 21px !important;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .post-list li {
+    padding: 17px;
+  }
+
+}
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 4px;
+}
