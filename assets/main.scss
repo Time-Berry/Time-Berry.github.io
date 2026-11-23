@@ -254,3 +254,64 @@ a:hover {
   bottom: 20px;
   font-size: 25px;
   color: var(--cyan);
+   }
+
+/* FEATURE PANEL */
+
+.tb-panel {
+  padding: 45px;
+  border: 1px solid rgba(100, 170, 255, .4);
+  border-radius: 30px;
+  background: rgba(12, 27, 58, .65);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 100, 255, .12);
+}
+
+/* FOOTER */
+
+.tb-footer {
+  margin-top: 100px;
+  padding: 55px 20px;
+  text-align: center;
+  border-top: 1px solid rgba(80, 160, 255, .35);
+  background: rgba(2, 8, 22, .8);
+}
+
+.tb-footer h2 {
+  color: #63caff;
+  letter-spacing: 3px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 800px) {
+  .tb-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tb-hero {
+    margin: 45px auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .tb-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tb-nav {
+    border-radius: 22px;
+  }
+
+  .tb-nav-links {
+    gap: 13px;
+  }
+
+  .tb-card {
+    min-height: 160px;
+  }
+
+  .tb-panel {
+    padding: 25px;
+  }
+}
