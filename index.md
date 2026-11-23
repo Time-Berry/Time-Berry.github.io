@@ -1,284 +1,150 @@
 ---
-layout: home
+layout: default
+title: TIME-BERRY
 ---
 
-<div class="hero">
+<header class="tb-nav">
+  <a class="tb-logo" href="/">◉ TIME-BERRY</a>
 
-  <span class="featured-label">WELCOME TO TIME-BERRY</span>
+  <nav class="tb-nav-links">
+    <a href="/">Home</a>
+    <a href="#explore">Explore</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+  </nav>
+</header>
 
-  <h1>Where Curiosity<br>Meets Innovation.</h1>
+<section class="tb-hero">
+
+  <span class="tb-tag">WELCOME TO THE KNOWLEDGE UNIVERSE</span>
+
+  <h1>TIME-BERRY</h1>
+
+  <h2>Where Curiosity Meets Innovation.</h2>
 
   <p>
-    Explore the universe. Understand science.
-    Discover technology. Imagine the future.
+    Explore. Learn. Discover. Grow.
+    A universe of knowledge — from science and technology
+    to your academic journey and beyond.
   </p>
 
-  <p>
-    TIME-BERRY is an independent knowledge platform
-    dedicated to exploring the extraordinary world
-    of science, technology, space and innovation.
+  <div>
+    <a class="tb-button" href="#explore">EXPLORE NOW →</a>
+    <a class="tb-button" href="#about">MEET THE CREATOR →</a>
+  </div>
+
+</section>
+
+<section class="tb-section" id="explore">
+
+  <h2 class="tb-section-title">EXPLORE OUR KNOWLEDGE UNIVERSE</h2>
+
+  <p class="tb-section-subtitle">
+    Choose a destination. Open a new world of knowledge.
   </p>
 
-  <a href="#explore" class="button">EXPLORE THE UNIVERSE →</a>
+  <div class="tb-grid">
 
-  <a href="#creator" class="button">MEET THE CREATOR →</a>
+    <a class="tb-card" href="/class-10/">
+      <span class="tb-card-number">01 / ACADEMICS</span>
+      <h3>CLASS 10 ACADEMIC PROFILE</h3>
+      <p>Academic journey, percentile, study strategy and achievements.</p>
+      <span class="tb-arrow">↗</span>
+    </a>
 
-</div>
+    <a class="tb-card" href="/python-development/">
+      <span class="tb-card-number">02 / DEVELOPMENT</span>
+      <h3>PYTHON DEVELOPMENT</h3>
+      <p>Python learning, preparation strategy, coding and resources.</p>
+      <span class="tb-arrow">↗</span>
+    </a>
 
+    <a class="tb-card" href="/science-space/">
+      <span class="tb-card-number">03 / DISCOVERY</span>
+      <h3>SCIENCE & SPACE</h3>
+      <p>Astronomy, physics, scientific discoveries and cosmic mysteries.</p>
+      <span class="tb-arrow">↗</span>
+    </a>
 
-<hr>
+    <a class="tb-card" href="/programming/">
+      <span class="tb-card-number">04 / TECHNOLOGY</span>
+      <h3>PROGRAMMING SKILLS</h3>
+      <p>Programming languages, web development and technical learning.</p>
+      <span class="tb-arrow">↗</span>
+    </a>
 
+    <a class="tb-card" href="/projects/">
+      <span class="tb-card-number">05 / INNOVATION</span>
+      <h3>PROJECTS & INNOVATIONS</h3>
+      <p>Experiments, websites, ideas and things built through learning.</p>
+      <span class="tb-arrow">↗</span>
+    </a>
 
-<h2 id="explore">THE WORLD OF KNOWLEDGE</h2>
+    <a class="tb-card" href="/future-roadmap/">
+      <span class="tb-card-number">06 / THE FUTURE</span>
+      <h3>FUTURE ROADMAP</h3>
+      <p>Learning goals, ambitions, technology and future plans.</p>
+      <span class="tb-arrow">↗</span>
+    </a>
 
-<p>
-  Every question opens a new door.
-  Every discovery changes our understanding.
-  Every idea has the potential to shape tomorrow.
-</p>
+  </div>
 
+</section>
 
-<div class="card-grid">
+<section class="tb-section" id="about">
 
-  <div class="topic-card">
-    <h3>🌌 SPACE & COSMOS</h3>
+  <div class="tb-panel">
+
+    <h2 class="tb-section-title">WHY TIME-BERRY?</h2>
+
     <p>
-      Explore galaxies, black holes, exoplanets,
-      neutron stars, cosmic mysteries and the
-      extraordinary scale of our universe.
+      Knowledge has no boundaries. Curiosity has no limits.
+      TIME-BERRY is a growing platform dedicated to learning,
+      exploration, creativity and innovation.
+    </p>
+
+    <h3>01 — ENDLESS LEARNING</h3>
+    <p>Discover new ideas and expand your understanding.</p>
+
+    <h3>02 — INNOVATIVE THINKING</h3>
+    <p>Question, experiment and explore possibilities.</p>
+
+    <h3>03 — REAL-WORLD SKILLS</h3>
+    <p>Turn knowledge into practical projects and abilities.</p>
+
+    <h3>04 — GLOBAL KNOWLEDGE</h3>
+    <p>Explore discoveries and ideas from around the world.</p>
+
+  </div>
+
+</section>
+
+<section class="tb-section" id="projects">
+
+  <h2 class="tb-section-title">PROJECTS & INNOVATIONS</h2>
+
+  <p class="tb-section-subtitle">
+    Ideas become meaningful when we turn them into reality.
+  </p>
+
+  <div class="tb-panel">
+    <h3>TIME-BERRY — OUR FIRST PROJECT</h3>
+    <p>
+      An independent science, technology and knowledge platform
+      created to bring learning and exploration together.
     </p>
   </div>
 
-  <div class="topic-card">
-    <h3>⚛️ PHYSICS</h3>
-    <p>
-      Discover quantum mechanics, relativity,
-      spacetime, fundamental particles and
-      the laws governing our universe.
-    </p>
-  </div>
+</section>
 
-  <div class="topic-card">
-    <h3>🤖 ARTIFICIAL INTELLIGENCE</h3>
-    <p>
-      Understand machine learning, robotics,
-      neural networks, generative AI and
-      the future of intelligent machines.
-    </p>
-  </div>
-
-  <div class="topic-card">
-    <h3>💻 TECHNOLOGY</h3>
-    <p>
-      Explore computing, programming,
-      semiconductors, smartphones,
-      engineering and futuristic inventions.
-    </p>
-  </div>
-
-  <div class="topic-card">
-    <h3>🧬 BIOLOGY & LIFE</h3>
-    <p>
-      Investigate genetics, evolution,
-      microorganisms, neuroscience and
-      the extraordinary complexity of life.
-    </p>
-  </div>
-
-  <div class="topic-card">
-    <h3>🌍 EARTH & NATURE</h3>
-    <p>
-      Discover oceans, climate, geology,
-      ecosystems, natural phenomena and
-      the mysteries of our planet.
-    </p>
-  </div>
-
-  <div class="topic-card">
-    <h3>🧪 CHEMISTRY</h3>
-    <p>
-      Explore elements, molecules,
-      chemical reactions, materials
-      and the science of matter.
-    </p>
-  </div>
-
-  <div class="topic-card">
-    <h3>🔭 SCIENTIFIC DISCOVERIES</h3>
-    <p>
-      Learn about groundbreaking research,
-      important experiments and discoveries
-      changing our understanding of reality.
-    </p>
-  </div>
-
-</div>
-
-
-<hr>
-
-
-<h2>WHY TIME-BERRY?</h2>
-
-<div class="hero">
-
-  <h2>Knowledge Has No Boundaries.</h2>
-
-  <p>
-    Science is not just a collection of facts.
-    It is a continuous journey of questioning,
-    experimenting, discovering and understanding.
-  </p>
-
-  <p>
-    Our mission is to make complex ideas
-    understandable, interesting and accessible
-    to curious minds around the world.
-  </p>
-
-  <p>
-    From the smallest particles to the largest
-    galaxies, there is always something new to discover.
-  </p>
-
-</div>
-
-
-<hr>
-
-
-<h2 id="creator">MEET THE CREATOR</h2>
-
-<p>
-  Behind every idea is a curious mind.
-  Behind TIME-BERRY is a student passionate
-  about science, technology, programming
-  and the mysteries of the universe.
-</p>
-
-<div class="topic-card">
-
-  <h3>THE MIND BEHIND TIME-BERRY</h3>
-
-  <p>
-    Hello! I am the creator of TIME-BERRY.
-    I am interested in understanding how the
-    world works, exploring scientific ideas
-    and building things using technology.
-  </p>
-
-  <p>
-    I believe curiosity is one of the most
-    powerful tools for learning and innovation.
-  </p>
-
-  <p>
-    TIME-BERRY is my attempt to combine
-    knowledge, creativity, research and
-    technology into one platform.
-  </p>
-
-</div>
-
-
-<hr>
-
-
-<h2>PROGRAMMING & TECHNOLOGY</h2>
-
-<p>
-  Learning to build, experiment and create.
-</p>
-
-<div class="card-grid">
-
-  <div class="topic-card">
-    <h3>PYTHON</h3>
-    <p>Programming, logic and problem-solving.</p>
-  </div>
-
-  <div class="topic-card">
-    <h3>HTML & CSS</h3>
-    <p>Building and designing websites.</p>
-  </div>
-
-  <div class="topic-card">
-    <h3>JAVASCRIPT</h3>
-    <p>Learning interactive web development.</p>
-  </div>
-
-  <div class="topic-card">
-    <h3>GITHUB</h3>
-    <p>Version control and collaborative development.</p>
-  </div>
-
-</div>
-
-
-<hr>
-
-
-<h2>PROJECTS & INNOVATIONS</h2>
-
-<p>
-  Ideas become meaningful when we turn them
-  into something real.
-</p>
-
-<div class="topic-card">
-
-  <h3>PROJECT 01 — TIME-BERRY</h3>
-
-  <p>
-    An independent science and technology
-    knowledge platform built using GitHub Pages,
-    HTML, CSS and Jekyll.
-  </p>
-
-  <span class="featured-label">CURRENT PROJECT</span>
-
-</div>
-
-
-<hr>
-
-
-<h2>OUR PHILOSOPHY</h2>
-
-<div class="hero">
+<footer class="tb-footer">
 
   <h2>STAY CURIOUS.</h2>
-
   <h2>QUESTION EVERYTHING.</h2>
-
   <h2>KEEP EXPLORING.</h2>
 
-  <p>
-    The universe is vast.
-    Human knowledge is constantly evolving.
-    And the journey of discovery never ends.
-  </p>
+  <p>TIME-BERRY — Explore. Learn. Discover.</p>
 
-</div>
+  <p>© 2026 TIME-BERRY</p>
 
-
-<hr>
-
-
-<h2>CONNECT WITH TIME-BERRY</h2>
-
-<p>
-  Have an interesting scientific idea?
-  Discovered something fascinating?
-  Want to explore the world of knowledge?
-</p>
-
-<p>
-  Welcome to TIME-BERRY.
-</p>
-
-<h3>EXPLORE. UNDERSTAND. DISCOVER.</h3>
-
-<p>
-  © 2026 TIME-BERRY. All rights reserved.
-</p>
+</footer>
